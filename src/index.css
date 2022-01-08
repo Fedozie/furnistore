@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nunito:ital,wght@0,600;0,700;1,400&family=Raleway&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root{
+  --robot-slab: 'Roboto-Slab', serif;
+  --raleway: 'Raleway', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+  --montserrat: 'Montserrat', sans-serif;
+  --header-bg: #1E280B;
+  --header-pri-color: #FBFDF7;
+  --header-sec-color: #888888;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html{
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0 3rem;
 }
