@@ -1,0 +1,25 @@
+.main{
+    background-color: lavender;
+    height: 84.5vh;
+    width: auto;
+    margin: 0;
+}
+
+.main-description{
+
+}
+
+.main-description > p:first-child{
+    text-decoration: underline;
+}
+
+.main-description > h3{
+    font-family: var(--roboto-slab);
+}
+
+.main-description > button{
+    border: none;
+    background-color: #917463;
+    color: #FBFDF7;
+    
+}

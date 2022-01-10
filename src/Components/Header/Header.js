@@ -7,34 +7,32 @@ import phoneIcon from '../Assets/phone-icon.svg';
 
 const Header = () => {
     return (
-        <div>
-            <header className = {styles.header}>
-                <div className={`${styles['top-head']}`}>
-                    <div>
-                        <img src={homeIcon} alt=""/>
-                    </div>
-                    <div className = {`${styles['top-head_text']}`}>
-                        <p>THE FURNISTORE COMPANY</p>
-                        <p>LONDON</p>
-                    </div>
-                    <div className = {`${styles['top-head_icons']}`}>
-                        <img src={searchIcon} alt=""/>
-                        <img src={bagIcon} alt=""/>
-                        <img src={phoneIcon} alt=""/>
-                    </div>
+        <header className = {styles.header}>
+            <div className={`${styles['top-head']}`}>
+                <div className = {`${styles['top-head_logo']}`}>
+                    <img src={homeIcon} alt=""/>
                 </div>
-                <nav className={`${styles['bottom-head']}`}>
-                    <ul>
-                        <li><a href="">NEW</a></li>
-                        <li><a href="">IN STOCK</a></li>
-                        <li><a href="">BESPOKE</a></li>
-                        <li><a href="">GALLERY</a></li>
-                        <li><a href="">OUTLETS</a></li>
-                        <li><a href="">ABOUT US</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+                <div className = {`${styles['top-head_text']}`}>
+                    <p>THE FURNISTORE COMPANY</p>
+                    <p>LONDON</p>
+                </div>
+                <div className = {`${styles['top-head_icons']}`}>
+                    <img src={searchIcon} alt=""/>
+                    <img src={bagIcon} alt=""/>
+                    <img src={phoneIcon} alt=""/>
+                </div>
+            </div>
+            <nav className={`${styles['bottom-head']}`}>
+                <ul>
+                    <li><a href="">NEW</a></li>
+                    <li><a href="">IN STOCK</a></li>
+                    <li><a href="">BESPOKE</a></li>
+                    <li><a href="">GALLERY</a></li>
+                    <li><a href="">OUTLETS</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>
+            </nav>
+        </header>
     );
 }
  

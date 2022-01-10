@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.top-head_logo > img, .top-head_icons > img{
+    cursor: pointer;
+}
+
 .top-head_text{
     text-align: center;
     color: var(--header-pri-color);
