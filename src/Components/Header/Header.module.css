@@ -12,16 +12,16 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
 .top-head_text{
     text-align: center;
     color: var(--header-pri-color);
-    /* font-weight: 700; */
     font-size: 1.5rem;
-    /* font-family: var(--roboto-slab); */
+    font-family: var(--roboto-slab);
     letter-spacing: 3px;
+    margin-left: 4.7rem;
 }
 
 .top-head_text > p{
@@ -42,7 +42,7 @@
 }
 
 .bottom-head{
-    color: var(--header-sec-color);
+    margin-top: .7rem;
 }
 
 .bottom-head > ul{
@@ -54,4 +54,14 @@
 
 .bottom-head > ul > li{
     list-style-type: none;
+}
+
+.bottom-head a{
+    text-decoration: none;
+    color: var(--header-sec-color);
+    transition: color .3s ease-in-out;
+}
+
+.bottom-head a:hover{
+    color: var(--header-pri-color);
 }

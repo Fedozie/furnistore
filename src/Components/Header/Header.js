@@ -25,12 +25,12 @@ const Header = () => {
                 </div>
                 <nav className={`${styles['bottom-head']}`}>
                     <ul>
-                        <li>NEW</li>
-                        <li>IN STOCK</li>
-                        <li>BESPOKE</li>
-                        <li>GALLERY</li>
-                        <li>OUTLETS</li>
-                        <li>ABOUT US</li>
+                        <li><a href="">NEW</a></li>
+                        <li><a href="">IN STOCK</a></li>
+                        <li><a href="">BESPOKE</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">OUTLETS</a></li>
+                        <li><a href="">ABOUT US</a></li>
                     </ul>
                 </nav>
             </header>
