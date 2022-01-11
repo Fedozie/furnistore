@@ -2,24 +2,71 @@
     background-color: lavender;
     height: 84.5vh;
     width: auto;
-    margin: 0;
+    margin-top: 0;
+    position: relative;
 }
 
 .main-description{
+    padding: 7.5rem 0 0 7.5rem;
+    width: 60%;
+}
 
+.main-description p{
+    
 }
 
 .main-description > p:first-child{
     text-decoration: underline;
+    margin: 0;
+    color: #917463;
 }
 
-.main-description > h3{
+.main-description > h1{
+    font-size: 3.5rem;
     font-family: var(--roboto-slab);
+    color: #475D1A;
+    font-family: var(--roboto-slab);
+}
+
+.main-description > p:nth-child(3){
+    font-family: var(--nunito);
 }
 
 .main-description > button{
     border: none;
     background-color: #917463;
     color: #FBFDF7;
-    
+    height: 3rem;
+    width: 8.5rem; 
+    font-family: var(--raleway);
+}
+
+.main-chatbox{
+    background-color: #ffffff;
+    width: 23rem;
+    height: 5rem;
+    border-radius: 15px;
+    /*Add font-family of Merriweather*/
+    position: absolute;
+    right: 0;
+    bottom: 14.1rem;
+    margin-right: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo-circle-icon{
+    position: absolute;
+    right: 11.7rem;
+    bottom: 18.1rem;
+    z-index: 10;
+}
+
+.main-chatbox-icon{
+    cursor: pointer;
+    position: absolute;
+    right: 1.6rem;
+    bottom: 10rem;
+    z-index: 10;
 }
