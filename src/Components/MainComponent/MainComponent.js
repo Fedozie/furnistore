@@ -4,14 +4,18 @@ import IconComponent from '../IconComponent/IconComponent';
 import mainImg from '../Assets/main-component-image.svg';
 import logoCircle from '../Assets/logo-circle.svg';
 import iconChatbox from '../Assets/icon-chatbox.svg';
+import iconWallet from '../Assets/icon-wallet.svg';
+import iconGift from '../Assets/icon-gift.svg';
+import iconHeadphones from '../Assets/icon-headphones.svg';
+import iconShipping from '../Assets/icon-shipping.svg';
 
 
 const MainComponent = () => {
     const items = [
-        {title: 'Quick Payment', description: '100% secure payment'},
-        {title: 'Smart Gift Card', description: 'Buy over $1000 to get a card'},
-        {title: '24/7 Support', description: 'Quick Support'},
-        {title: 'Free Shipping',description: 'Orders over $100'}
+        {icon: iconWallet, title: 'Quick Payment', description: '100% secure payment'},
+        {icon: iconGift, title: 'Smart Gift Card', description: 'Buy over $1000 to get a card'},
+        {icon: iconHeadphones, title: '24/7 Support', description: 'Quick Support'},
+        {icon: iconShipping, title: 'Free Shipping',description: 'Orders over $100'}
     ];
 
 
@@ -32,7 +36,7 @@ const MainComponent = () => {
             </div>
             <img src={logoCircle} alt="" className = {`${styles['main-logo-circle-icon']}`} />
             <img src={iconChatbox} alt="" className = {`${styles['main-chatbox-icon']}`}/>
-            {/* <IconComponent icon = {items}/> */}
+            <IconComponent icons = {items}/>
         </div>
     );
 }

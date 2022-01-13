@@ -1,5 +1,5 @@
 .main{
-    background-color: lavender;
+    background-color: #A9EBBB;
     height: 84.5vh;
     width: auto;
     margin-top: 0;
@@ -34,11 +34,17 @@
 
 .main-description > button{
     border: none;
-    background-color: #917463;
+    background: #917463;
     color: #FBFDF7;
     height: 3rem;
     width: 8.5rem; 
     font-family: var(--raleway);
+    cursor: pointer;
+    transition: background 1s ease-in-out;
+}
+
+.main-description > button:hover{
+    background: #C4A672;
 }
 
 .main-chatbox{

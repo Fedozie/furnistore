@@ -1,0 +1,29 @@
+.main-icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    padding: 0 3rem;
+}
+
+.main-icon{
+    display: flex;
+    align-items: center;
+}
+
+.main-icon > img{
+    margin-right: 1rem;
+}
+
+.main-icon p{
+    margin: 0;
+}
+
+.main-icon p:first-of-type{
+    font-weight: 700;
+}
+
+.main-icon p:last-of-type{
+    color: #757575c0;
+}
