@@ -18,9 +18,8 @@ const MainComponent = () => {
         {icon: iconShipping, title: 'Free Shipping',description: 'Orders over $100'}
     ];
 
-
     return (
-        <div className = {styles.main} /*style = {{backgroundImage:`url(${mainImg})`}}*/>
+        <div className = {styles.main} style = {{backgroundImage:`url(${mainImg})`}}>
             <div className = {`${styles['main-description']}`}>
                 <p>ALLURE COLLECTION</p>
                 <h1>TAKE A SEAT, YOU DESERVE IT.</h1>
