@@ -54,7 +54,7 @@
     /*Add font-family of Merriweather*/
     position: absolute;
     right: 0;
-    bottom: 14.1rem;
+    bottom: 21.1rem;
     margin-right: 1.6rem;
     display: flex;
     align-items: center;
@@ -64,7 +64,7 @@
 .main-logo-circle-icon{
     position: absolute;
     right: 11.7rem;
-    bottom: 18.1rem;
+    bottom: 25rem;
     z-index: 10;
 }
 
@@ -72,6 +72,6 @@
     cursor: pointer;
     position: absolute;
     right: 1.6rem;
-    bottom: 10rem;
+    bottom: 17rem;
     z-index: 10;
 }
