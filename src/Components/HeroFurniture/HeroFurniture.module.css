@@ -1,0 +1,22 @@
+.hero-top{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.hero-top-tab{
+    background: #E2E3D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-top-tab:first-of-type{
+   grid-row: 1 / span 2;
+}
+
+.hero-top-tab img{
+    height: 23rem;
+}

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from './MainComponent.module.css';
-import IconComponent from '../IconComponent/IconComponent';
+import MainIcons from '../MainIcons/MainIcons';
 import mainImg from '../Assets/main-component-image.svg';
 import logoCircle from '../Assets/logo-circle.svg';
 import iconChatbox from '../Assets/icon-chatbox.svg';
@@ -35,7 +35,7 @@ const MainComponent = () => {
             </div>
             <img src={logoCircle} alt="" className = {`${styles['main-logo-circle-icon']}`} />
             <img src={iconChatbox} alt="" className = {`${styles['main-chatbox-icon']}`}/>
-            <IconComponent icons = {items}/>
+            <MainIcons icons = {items}/>
         </div>
     );
 }

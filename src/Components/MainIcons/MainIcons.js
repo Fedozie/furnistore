@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import styles from './IconComponent.module.css';
+import styles from './MainIcons.module.css';
 
-const IconComponent = (props) => {
+const MainIcons = (props) => {
     return (
         <div className = {`${styles['main-icons']}`}>
             {props.icons.map((icon) => (
@@ -17,4 +17,4 @@ const IconComponent = (props) => {
     );
 }
  
-export default IconComponent;
+export default MainIcons;
